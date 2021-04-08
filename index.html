@@ -8,109 +8,687 @@
       <title>PLANTA</title>
       <link rel="stylesheet" href="styles/debug.css">
 
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+<!-- NAVBAR -->
+  <div class="container">
+    <nav class="navbar has-shadow is-white" role="navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="https://www.loveisthemedicine.com">
-          <img src="http://nicoleandujar.com/images/planta-logo.png" style="max-width: 150px;">
+          <img src="http://nicoleandujar.com/images/planta-logo.png" alt="planta logo" style="max-height:70px">
         </a>
 
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
+        <a class="navbar-burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
         </a>
       </div>
 
-      <div class="navbar-item">
-        <a class="navbar-item" href="/about">
-          About
-        </a>
-      </div>
+<div class="navbar-menu" id="nav-links">
+  <div class="navbar-end">
+        <a class="navbar-item">About</a>
 
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          Plant Medicines
-        </a>
+        <a class="navbar-link">Plant Medicines</a>
         <div class="navbar-dropdown">
-          <a class="navbar-item" href='/ayahyasca'>
-            Ayahuasca
-          </a>
-          <a class="navbar-item" href='/peyote'>
-            Peyote
-          </a>
-          <a class="navbar-item" href="/sanpedro">
-            San Pedro
-          </a>
-          <a class="navbar-item" href="/mushrooms">
-            Psylocibin Mushrooms
-          </a>
+          <a class="navbar-item" href='/ayahyasca'>Ayahuasca</a>
+          <a class="navbar-item" href='/peyote'>Peyote</a>
+          <a class="navbar-item" href="/sanpedro">San Pedro</a>
+          <a class="navbar-item" href="/mushrooms">Psylocibin Mushrooms</a>
         </div>
        </div>
 
 
-       <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
-            Traditions
-          </a>
-          <div class="navbar-dropdown">
-            <a class="navbar-item" href='/shipibo'>
-              Shipibo
-            </a>
-            <a class="navbar-item" href='/yawanawa'>
-              Yawanawa
-            </a>
-            <a class="navbar-item" href='/wixarika'>
-              Wixarika
-            </a>
-            <a class="navbar-item" href='/nativeamericanchurch'>
-              Native American Church
-            </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">Traditions</a>
+              <div class="navbar-dropdown">
+            <a class="navbar-item" href='/shipibo'>Shipibo</a>
+            <a class="navbar-item" href='/yawanawa'>Yawanawa</a>
+            <a class="navbar-item" href='/wixarika'>Wixarika</a>
+            <a class="navbar-item" href='/nativeamericanchurch'>Native American Church</a>
           </div>
+        </div>
+
+         <a class="navbar-item">Resources</a>
+
+         <a class="navbar-item">Workshops</a>
+      </div>
       </div>
 
-      <div class="navbar-item">
-         <a class="navbar-item" href="/resources">
-           Resources
-         </a>
-      </div>
-
-      <div class="navbar-item">
-         <a class="navbar-item" href="/workshops">
-           Workshops
-         </a>
-      </div>
 
     </nav>
+<!-- END NAVBAR -->
+
+<!-- BERADCRUMBS -->
+      <div class="section is-centered  pt-4 pb-4 ">
+        <nav class="breadcrumb is-small has-succeeds-separator">
+          <ul>
+            <li><a class="has-text-grey" href="#">Home</a></li>
+            <li><a class="has-text-grey" href="#">About</a></li>
+            <li><a class="has-text-grey" href="#">Plant Medicines</a></li>
+            <li><a class="has-text-grey" href="#">Resources</a></li>
+            <li class="is-active"><a href="#" aria-current="page">Workshops</a></li>
+          </ul>
+        </nav>
+      </div>
+<!-- END BERADCRUMBS -->
+
 
   </head>
 
   <body>
-    <!-- .hero -->
-    <section class="hero">
-
-              <img class="imgcover" src="images/plantacover1.jpg" alt="Jaguar coming out of the jungle">
-              <div class="caption">
-                <h2><span>Answering your questions about  </br>entheogen, ceremonies, and traditions.</span></h2>
-                <button type="button" class="hero-button" onclick="location.href='tours.html'">Read more &raquo;
-                 </button>
+    <!-- .HERO -->
+    <section class="hero has-background-light">
+      <div class="container">
+          <img class="container" src="images/plantacover1.jpg" alt="Jaguar coming out of the jungle">
+          <div class="container">
+            <h2 class="has-text-weight-bold is-size-4 is-italic px-3 mx-3"><span>Answering your questions about  </br>entheogen, ceremonies, and traditions.</span></h2>
+            <button type="button" class="hero-button px-3 mx-5" onclick="location.href='tours.html'">Read more &raquo;
+            </button>
+        </div>
       </div>
-
-        <!-- <div class="hero-body">
-            <div class="container">
-              <figure class="image center">
-                    <img src="images/plantacover1.jpg"> style="max-width: 340px;">
-                </figure>
-        </div> -->
     </section>
-    <!-- /.hero -->
+    <!-- /.HERO -->
 
-  <section class="section">
+
+<!-- WELCOME Section -->
+  <section class="section section-padding-large">
     <div class="container">
-      <h1 class="title">PLANTA</h1>
-      <p class="subtitle">
-        My first website with <strong>NICO</strong>!
+      <h3 class="is-size-1 has-text-centered has-text-weight-bold">Welcome!</h3>
+      <p class="has-text-centered px-6 mx-6"> Welcome to <strong>P LA N T A</strong> , a resource about the wonderful world of <em>Ayahuasca, Peyote, San Pedro,</em> and <em>Psilocybin Mushrooms</em> where we explore the healing, creative, cultural, traditional and scientific aspects of these entheogen. Explore <strong>Plant Medicines</strong> if you are new to the subject. Take a look at our <strong>Resources</strong>  to explore how you can help and serve the medicine community. And check out the <strong>Workshops</strong>  for continued education from wisdom keepers all over the world.
       </p>
     </div>
   </section>
+
+
+<!-- NEW TO PLANT MEDICINE SECTION -->
+  <section class="section section-padding-large has-background-light">
+    <div class="container">
+      <h3 class="is-size-2 has-text-centered has-text-weight-bold">New to Plant Medicine?</h3>
+      <button type="button" class="hero-button has-button-centered px-3 mx-5" onclick="location.href='tours.html'">Read more &raquo;
+       </button>
+    </div>
+  </section>
+
+<!-- EXPAND YOUR KNOWLEDGE SECTION -->
+  <section class="section section-padding-large">
+    <div class="container">
+      <h3 class="is-size-2 has-text-centered has-text-weight-bold">Expand Your Knowledge About Plant Medicine</h3>
+      <button type="button" class="hero-button has-button-centered px-3 mx-5" onclick="location.href='tours.html'">Read more &raquo;
+       </button>
+    </div>
+  </section>
+
+  <!-- FEATURED ARTICLES -->
+  <section class="section section-padding-large has-background-light">
+    <div class="container">
+      <h3 class="is-size-2 has-text-centered has-text-weight-bold">Featured Articles</h3>
+      <p class="has-text-centered px-6 mx-6"> Here are some great reads to start your day
+      </p>
+    </div>
+
+<!-- ARTICLES SECTION -->
+  <section class="section">
+    <div class="container">
+      <div class="columns is-multiline">
+        <div class="column is-one-third">
+
+<!-- CARD 1 -->
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                    <p class="title is-4">John Smith</p>
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                  <!-- <figure class="image is-48x48">
+                    <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                  </figure> -->
+                </div>
+                <!-- <div class="media-left">
+                  <p class="title is-6">John Smith</p>
+                  <p class="subtitle is-6">@johnsmith</p>
+                </div> -->
+              </div>
+
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                <a href="#">#css</a> <a href="#">#responsive</a>
+              </div>
+              <div class="buttons">
+                <button class="button is-success">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  <!-- END CARD 1 -->
+
+  <!-- CARD 2 -->
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                    <p class="title is-4">John Smith</p>
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                <a href="#">#css</a> <a href="#">#responsive</a>
+              </div>
+              <div class="buttons">
+                <button class="button is-success">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- END CARD 2 -->
+
+<!-- CARD 3 -->
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                    <p class="title is-4">John Smith</p>
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                <a href="#">#css</a> <a href="#">#responsive</a>
+              </div>
+              <div class="buttons">
+                <button class="button is-success">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- END CARD 3 -->
+
+<!-- CARD 4 -->
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                    <p class="title is-4">John Smith</p>
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                <a href="#">#css</a> <a href="#">#responsive</a>
+              </div>
+              <div class="buttons">
+                <button class="button is-success">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- END CARD 4 -->
+
+<!-- CARD 5 -->
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                    <p class="title is-4">John Smith</p>
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                <a href="#">#css</a> <a href="#">#responsive</a>
+              </div>
+              <div class="buttons">
+                <button class="button is-success">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- END CARD 5 -->
+
+<!-- CARD 6 -->
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                    <p class="title is-4">John Smith</p>
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                <a href="#">#css</a> <a href="#">#responsive</a>
+              </div>
+              <div class="buttons">
+                <button class="button is-success">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- END CARD 6 -->
+  </section>
+  </section>
+  <!-- END ARTICLE section -->
+
+<!-- IN THE NEWS SECTION -->
+
+<!-- IN THE NEWS Section Header -->
+<section class="section">
+  <div class="container">
+    <h3 class="is-size-2 has-text-centered has-text-weight-bold">In The News</h3>
+  </div>
+
+<!-- IN THE NEWS Section ARTICLES  -->
+<section class="section">
+  <div class="container">
+    <div class="columns is-multiline">
+      <div class="column">
+
+        <div class="tile is-ancestor">
+    <div class="tile is-vertical is-6">
+      <div class="tile">
+        <div class="tile is-parent is-vertical">
+          <article class="tile is-child notification has-background-light">
+            <figure class="image is-5by3 mb-3">
+              <img src="https://bulma.io/images/placeholders/640x480.png">
+            </figure>
+            <p class="title">Decriminalization for Psylocibin Mushrooms is closer to reality</p>
+            <p class="content">Decriminalize Nature is a grassroots movement fighting to decriminalize Psylocibin Mushrooms</p>
+            <div class="buttons">
+              <button class="button is-success">Read More</button>
+            </div>
+          </article>
+          </div>
+      </div>
+    </div>
+
+    <div class="tile is-vertical is-6">
+      <div class="tile">
+        <div class="tile is-parent is-vertical">
+          <article class="tile is-child notification has-background-light">
+            <figure class="image is-5by3 mb-3">
+              <img src="https://bulma.io/images/placeholders/640x480.png">
+            </figure>
+            <p class="title">The long journey of religious freedom for the NAC</p>
+            <p class="content">Kayumari is known in the Huichol Indian tradition as a blue deer that brings messages to the people from Spirit. It is said that where the blue deer walks, healthy communities grow.</p>
+            <div class="buttons">
+              <button class="button is-success">Read More</button>
+            </div>
+          </article>
+
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+</section>
+<!-- END IN THE NEWS -->
+
+<!-- CONSERVATION SECTION -->
+
+<!-- CONSERVATION Section Header -->
+
+  <div class="container has-background-light">
+    <h3 class="is-size-2 pt-6 pb-4 has-text-centered has-text-weight-bold">Conservation</h3>
+    <p class="has-text-centered px-6 mx-6">Conscious efforts to propagate our ancestral medicines.</p>
+    </p>
+  </div>
+
+
+<!-- IN THE NEWS Section ARTICLES  -->
+<section class="section has-background-light">
+  <div class="container">
+    <div class="columns is-multiline">
+      <div class="column">
+
+        <div class="tile is-ancestor">
+    <div class="tile is-vertical is-6">
+      <div class="tile">
+        <div class="tile is-parent is-vertical">
+          <article class="tile is-child notification has-background-light">
+            <figure class="image is-5by3 mb-3">
+              <img src="https://bulma.io/images/placeholders/640x480.png">
+            </figure>
+            <p class="title">Conservation efforts for Peyote</p>
+            <p class="content">Recommended technique for sustainable harvest of the peyote button.</p>
+            <div class="buttons">
+              <button class="button is-success">Read More</button>
+            </div>
+          </article>
+
+          </div>
+      </div>
+    </div>
+
+    <div class="tile is-vertical is-6">
+      <div class="tile">
+        <div class="tile is-parent is-vertical">
+          <article class="tile is-child notification has-background-light">
+            <figure class="image is-5by3 mb-3">
+              <img src="https://bulma.io/images/placeholders/640x480.png">
+            </figure>
+            <p class="title">The Shaman’s Treasure: The Many Plants Added to the Ayahuasca Brew</p>
+            <p class="content">It is a known fact that ayahuasca and yagé drinks consist of a pair of plants: vine or leaves of ayahuasca (Banisteriopsis...</p>
+            <div class="buttons">
+              <button class="button is-success">Read More</button>
+            </div>
+          </article>
+
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+</section>
+
+<!-- END CONSERVATION SECTION -->
+
+<!-- VIDEO SERIES Section Header -->
+    <section class="section section-padding-medium">
+      <div class="container">
+        <h3 class="is-size-2 has-text-centered has-text-weight-bold">Video Series</h3>
+        <p class="has-text-centered px-6 mx-6">Check out our amazing video gallery.
+        </p>
+      </div>
+
+<!-- TABS -->
+      <br>
+        <div class="tabs is-centered is-toggle">
+          <ul>
+            <li class="is-active">
+              <a>
+                <span>Show All</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span>Ayahuasca</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span>Peyote</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span>Mushrooms</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span>San Pedro</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span>Traditions</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        </div>
+  <!-- END TABS -->
+
+
+<!-- ARTICLES SECTION -->
+  <section class="section">
+    <div class="container ">
+      <div class="columns is-multiline">
+        <div class="column is-one-third">
+
+<!-- CARD 1 -->
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                    <p class="title is-4">John Smith</p>
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                <a href="#">#css</a> <a href="#">#responsive</a>
+              </div>
+              <div class="buttons">
+                <button class="button is-success">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  <!-- END CARD 1 -->
+
+  <!-- CARD 2 -->
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                    <p class="title is-4">John Smith</p>
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                <a href="#">#css</a> <a href="#">#responsive</a>
+              </div>
+              <div class="buttons">
+                <button class="button is-success">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- END CARD 2 -->
+
+<!-- CARD 3 -->
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                    <p class="title is-4">John Smith</p>
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                <a href="#">#css</a> <a href="#">#responsive</a>
+              </div>
+              <div class="buttons">
+                <button class="button is-success">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- END CARD 3 -->
+
+<!-- CARD 4 -->
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                    <p class="title is-4">John Smith</p>
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                <a href="#">#css</a> <a href="#">#responsive</a>
+              </div>
+              <div class="buttons">
+                <button class="button is-success">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- END CARD 4 -->
+
+<!-- CARD 5 -->
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                    <p class="title is-4">John Smith</p>
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                <a href="#">#css</a> <a href="#">#responsive</a>
+              </div>
+              <div class="buttons">
+                <button class="button is-success">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- END CARD 5 -->
+
+<!-- CARD 6 -->
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                    <p class="title is-4">John Smith</p>
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                <a href="#">#css</a> <a href="#">#responsive</a>
+              </div>
+              <div class="buttons">
+                <button class="button is-success">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- END CARD 6 -->
+  </section>
+  </section>
+
+<!-- END VIDEO GALLERY -->
+
+
+
+
+
+<footer class="footer footer-background-color">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-5">
+        <strong>PLANTA</strong> ©2021</p>
+        <p> <strong>A plant medicine resource website.</strong> </p>
+        <p>Our main focus is to provide high quality, objective, and infromative ceremony content from all over the world.</p>
+      </div>
+      <div class="column is-2">
+        <p><strong>Navigation</strong></p>
+        <p>Home</p>
+        <p>Plant Medicines</p>
+        <p>Resources</p>
+        <p>Workshops</p>
+    </div>
+    <div class="column is-2">
+      <p><strong>Links</strong></p>
+      <p>About</p>
+      <p>Contact</p>
+      <p>Sitemap</p>
+      <p>Donate</p>
+  </div>
+  <div class="column is-3">
+    <p><strong>Follow Us</strong></p>
+    <span class="icon-text">
+    <span class="icon">
+      <i class="fas fa-home"></i>
+    </span>
+  </span>
+    <p>Contact</p>
+    <p>Sitemap</p>
+    <p><a href="http://planta.today">planta.today</a></p>
+</div>
+  </div>
+</footer>
+
+<script src="assets/index.js"></script>
   </body>
 </html>
