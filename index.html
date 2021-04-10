@@ -10,7 +10,7 @@
 
 <!-- NAVBAR -->
   <div class="container">
-    <nav class="navbar has-shadow is-white" role="navigation">
+    <nav class=" navbar has-shadow is-white" role="navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="https://www.loveisthemedicine.com">
           <img src="http://nicoleandujar.com/images/planta-logo.png" alt="planta logo" style="max-height:70px">
@@ -54,12 +54,11 @@
       </div>
       </div>
 
-
     </nav>
 <!-- END NAVBAR -->
 
 <!-- BERADCRUMBS -->
-      <div class="section is-centered  pt-4 pb-4 ">
+      <!-- <div class="section is-centered  pt-4 pb-4 ">
         <nav class="breadcrumb is-small has-succeeds-separator">
           <ul>
             <li><a class="has-text-info" href="#">Home</a></li>
@@ -69,21 +68,105 @@
             <li class="is-active"><a href="#" aria-current="page">Workshops</a></li>
           </ul>
         </nav>
-      </div>
+      </div> -->
 <!-- END BERADCRUMBS -->
+<style>
+  body {
+    font-family: 'Work Sans', sans-serif;
+    background: #fff;   /* #F3FFF6; #E2E0DD*/
+}
 
+header {
+    background: #fff;
+    padding: 2em 0;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+  .copy-over-img {
+    position: absolute;
+	  bottom: 0;
+    background: white;
+    /* display: block; */
+    width: 100%;
+    /* padding: 10px; */
+
+  }
+  h2 {
+    bottom: 250px;
+    left: 75px;
+    width: 100%;
+  }
+  .caption {
+    position: absolute;
+    bottom: 80px;
+    padding-left: 40px;
+  }
+  h2 span{
+    color: #fff;
+    font: bold 24px/45px 'Work Sans', sans-serif;
+    background: rgba(57, 86, 54, 0.8);
+    padding: 10px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font: bold  'Work Sans', sans-serif;
+  }
+  #myBtnContainer {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+  .btn {
+  font-family: 'Work Sans', sans-serif;
+  font-size: .9rem;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  color:beige ;
+  background-color:#1E301E;
+  border-radius: 8px;
+}
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #8E7150;
+  color: #fff;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color:darkolivegreen;
+  color:white;
+}
+
+iframe {
+ width: 420px;
+}
+
+.wrap {
+  height: auto !important;
+  white-space: unset !important;
+  width: 100%
+}
+
+</style>
 
   </head>
 
   <body>
     <!-- .HERO -->
-    <section class="hero has-background-light">
+    <section class="hero ">
       <div class="container">
-          <img class="container" src="images/plantacover1.jpg" alt="Jaguar coming out of the jungle">
-          <div class="container">
-            <h2 class="has-text-weight-bold is-size-4 px-3 mx-3"><span>Answering your questions about  </br>entheogen, ceremonies, and traditions.</span></h2>
-              <div class="buttons pt-3 pb-3">
-                <button class="button is-success px-3 mx-5">Read More</button>
+          <img src="images/plantacover1350x620.jpg" alt="Jaguar coming out of the jungle">
+          <div class="copy-over-img">
+            <div class="caption">
+              <h2><span>Answering your questions about</span></br></h2><h2><span>entheogen, ceremonies, and traditions.</span></h2>
+              </span></h2>
+              <div class="pt-3 pb-3">
+                <button class="btn px-3 mx-1">Read More</button>
               </div>
         </div>
       </div>
@@ -92,42 +175,45 @@
 
 
 <!-- WELCOME Section -->
-  <section class="section section-padding-large">
+  <section class="section section-padding-large has-background-light">
     <div class="container">
       <h3 class="is-size-1 has-text-centered has-text-weight-bold">Welcome!</h3>
-      <p class="has-text-centered px-6 mx-6"> Welcome to <strong>P LA N T A</strong> , a resource about the wonderful world of <em>Ayahuasca, Peyote, San Pedro,</em> and <em>Psilocybin Mushrooms</em> where we explore the healing, creative, cultural, traditional and scientific aspects of these entheogen. Explore <strong>Plant Medicines</strong> if you are new to the subject. Take a look at our <strong>Resources</strong>  to explore how you can help and serve the medicine community. And check out the <strong>Workshops</strong>  for continued education from wisdom keepers all over the world.
+      <p class="has-text-centered px-6 mx-6"> Welcome to <strong>P LA N T A</strong>, a resource about the wonderful world of <em>Ayahuasca, Peyote, San Pedro,</em> and <em>Psilocybin Mushrooms</em> where we explore the healing, creative, cultural, traditional and scientific aspects of these entheogen. Explore <strong>Plant Medicines</strong> if you are new to the subject. Take a look at our <strong>Resources</strong>  to explore how you can help and serve the medicine community. And check out the <strong>Workshops</strong>  for continued education from wisdom keepers all over the world.
       </p>
     </div>
   </section>
 
 
 <!-- NEW TO PLANT MEDICINE SECTION -->
-  <section class="section section-padding-large has-background-light">
+  <section class="section">
     <div class="container">
       <h3 class="is-size-2 has-text-centered has-text-weight-bold">New to Plant Medicine?</h3>
       <div class="buttons pt-3 pb-3 is-centered">
-        <button class="button is-success px-3 mx-5">Read More</button>
+        <button class="btn px-3 mx-5">Read More</button>
       </div>
     </div>
   </section>
 
 <!-- EXPAND YOUR KNOWLEDGE SECTION -->
-  <section class="section section-padding-large">
+  <section class="section section-padding-large has-background-light">
     <div class="container">
       <h3 class="is-size-2 has-text-centered has-text-weight-bold">Expand Your Knowledge About Plant Medicine</h3>
       <div class="buttons pt-3 pb-3 is-centered">
-        <button class="button is-success px-3 mx-5">Explore</button>
+        <button class="btn px-3 mx-5">Explore &raquo;</button>
       </div>
     </div>
   </section>
+  
 
   <!-- FEATURED ARTICLES -->
-  <section class="section section-padding-large has-background-light">
+  <section class="section section-padding-large">
     <div class="container">
       <h3 class="is-size-2 has-text-centered has-text-weight-bold">Featured Articles</h3>
       <p class="has-text-centered px-6 mx-6"> Here are some great reads to start your day
       </p>
+  
     </div>
+
 
 <!-- ARTICLES SECTION -->
   <section class="section">
@@ -156,7 +242,7 @@
                 <a href="#">#css</a> <a href="#">#responsive</a>
               </div>
               <div class="buttons">
-                <button class="button is-success">Read More</button>
+                <button class="btn">Read More</button>
               </div>
             </div>
           </div>
@@ -184,7 +270,7 @@
                 <a href="#">#css</a> <a href="#">#responsive</a>
               </div>
               <div class="buttons">
-                <button class="button is-success">Read More</button>
+                <button class="btn">Read More</button>
               </div>
             </div>
           </div>
@@ -212,7 +298,7 @@
                 <a href="#">#css</a> <a href="#">#responsive</a>
               </div>
               <div class="buttons">
-                <button class="button is-success">Read More</button>
+                <button class="btn">Read More</button>
               </div>
             </div>
           </div>
@@ -240,7 +326,7 @@
                 <a href="#">#css</a> <a href="#">#responsive</a>
               </div>
               <div class="buttons">
-                <button class="button is-success">Read More</button>
+                <button class="btn">Read More</button>
               </div>
             </div>
           </div>
@@ -268,7 +354,7 @@
                 <a href="#">#css</a> <a href="#">#responsive</a>
               </div>
               <div class="buttons">
-                <button class="button is-success">Read More</button>
+                <button class="btn">Read More</button>
               </div>
             </div>
           </div>
@@ -296,7 +382,7 @@
                 <a href="#">#css</a> <a href="#">#responsive</a>
               </div>
               <div class="buttons">
-                <button class="button is-success">Read More</button>
+                <button class="btn">Read More</button>
               </div>
             </div>
           </div>
@@ -313,9 +399,10 @@
   <div class="container">
     <h3 class="is-size-2 has-text-centered has-text-weight-bold">In The News</h3>
   </div>
-  
+  <p class="has-text-centered pb-4">What's newsworthy in the world of Plant Medicine.</p>
+
+
 <!-- IN THE NEWS Section ARTICLES  -->
-<section class="section">
   <div class="container">
     <div class="columns is-multiline">
       <div class="column">
@@ -331,7 +418,7 @@
             <p class="title is-4">Decriminalization for Psylocibin Mushrooms is closer to reality</p>
             <p class="content">Decriminalize Nature is a grassroots movement fighting to decriminalize Psylocibin Mushrooms</p>
             <div class="buttons">
-              <button class="button is-success">Read More</button>
+              <button class="btn">Read More</button>
             </div>
           </article>
           </div>
@@ -348,7 +435,7 @@
             <p class="title is-4">The long journey of religious freedom for the NAC</p>
             <p class="content">Kayumari is known in the Huichol Indian tradition as a blue deer that brings messages to the people from Spirit. It is said that where the blue deer walks, healthy communities grow.</p>
             <div class="buttons">
-              <button class="button is-success">Read More</button>
+              <button class="btn">Read More</button>
             </div>
           </article>
 
@@ -357,23 +444,19 @@
     </div>
   </div>
 </section>
-</section>
+
 <!-- END IN THE NEWS -->
 
 <!-- CONSERVATION SECTION -->
+<hr> 
+<!-- CONSEVATION ARTICLES  -->
 
-<!-- CONSERVATION Section Header -->
-
-  <div class="container has-background-light">
-    <h3 class="is-size-2 pt-6 pb-4 has-text-centered has-text-weight-bold">Conservation</h3>
-    <p class="has-text-centered px-6 mx-6">Conscious efforts to propagate our ancestral medicines.</p>
-    </p>
-  </div>
-
-
-<!-- IN THE NEWS Section ARTICLES  -->
 <section class="section has-background-light">
   <div class="container">
+    <h3 class="is-size-2 has-text-centered has-text-weight-bold">Conservation</h3>
+  </div>
+    <p class="has-text-centered pb-4">Conscious efforts to propagate our ancestral medicines.</p>
+    </p>
     <div class="columns is-multiline">
       <div class="column">
 
@@ -388,7 +471,7 @@
                   <p class="title is-4">Conservation efforts for Peyote</p>
                   <p class="content">Recommended technique for sustainable harvest of the peyote button.</p>
                   <div class="buttons">
-                    <button class="button is-success">Read More</button>
+                    <button class="btn">Read More</button>
                   </div>
                 </article>
           </div>
@@ -406,7 +489,7 @@
             <p class="title is-4">The Shaman’s Treasure: The Many Plants Added to the Ayahuasca Brew</p>
             <p class="content">It is a known fact that ayahuasca and yagé drinks consist of a pair of plants: vine or leaves of ayahuasca (Banisteriopsis...</p>
             <div class="buttons">
-              <button class="button is-success">Read More</button>
+              <button class="btn">Read More</button>
             </div>
           </article>
 
@@ -418,86 +501,44 @@
 </div>
 </div>
 </section>
-</section>
 
 <!-- END CONSERVATION SECTION -->
 
 <!-- VIDEO SERIES Section Header -->
-    <section class="section section-padding-medium">
+<section class="container">    
+<section class="section section-padding-medium">
       <div class="container">
         <h3 class="is-size-2 has-text-centered has-text-weight-bold">Video Series</h3>
-        <p class="has-text-centered px-6 mx-6">Check out our amazing video gallery.</p>
-        <br>
-        <p class="has-text-centered pb-2  "> <strong>FILTER</strong></p>
-      </div>
-
-<!-- TABS -->
-
-<!-- <div class="section is-centered" id="myBtnContainer">
-        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-        <button class="btn" onclick="filterSelection('ayahuasca')"> Ayahuasca</button>
-        <button class="btn" onclick="filterSelection('peyote')"> Peyote</button>
-        <button class="btn" onclick="filterSelection('mushrooms')"> Mushrooms</button>
-        <button class="btn" onclick="filterSelection('sanpedro')"> San Pedro</button>
-        <button class="btn" onclick="filterSelection('traditions')"> Traditions</button>
-      </div> -->
-
-
-        <div class="tabs is-centered is-toggle is-light">
-          <ul>
-            <li class="is-active">
-              <a>
-                <span>Show All</span>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <span>Ayahuasca</span>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <span>Peyote</span>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <span>Mushrooms</span>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <span>San Pedro</span>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <span>Traditions</span>
-              </a>
-            </li>
-          </ul>
+        <p class="has-text-centered">Check out our amazing video gallery.</p>
+        <p class="has-text-centered"><strong>FILTER</strong></p>
+        <!-- TABS -->
+        <div class="has-text-centered pb-4" id="myBtnContainer">
+          <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+          <button class="btn" onclick="filterSelection('ayahuasca')"> Ayahuasca</button>
+          <button class="btn" onclick="filterSelection('peyote')"> Peyote</button>
+          <button class="btn" onclick="filterSelection('mushrooms')"> Mushrooms</button>
+          <button class="btn" onclick="filterSelection('sanpedro')"> San Pedro</button>
+          <button class="btn" onclick="filterSelection('traditions')"> Traditions</button>
+          <button class="btn" onclick="filterSelection('wisdom')"> Wisdom</button>
         </div>
-        </div>
-  <!-- END TABS -->
+      <!-- END TABS -->
 
+      <!-- VIDEO SERIES SECTION -->
 
-<!-- ARTICLES SECTION -->
-  <section class="section">
-    <div class="container ">
-      <div class="columns is-multiline">
+      <div class="columns is-multiline is-one-third">
         <div class="column is-one-third">
 
 <!-- CARD 1 -->
           <div class="card">
             <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-              </figure>
+                <a href="https://www.youtube.com/embed/6j0_glRnJxI"><iframe width="560" height="315" src="https://www.youtube.com/embed/6j0_glRnJxI" title="YouTube video player" frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </a>
             </div>
             <div class="card-content">
               <div class="media">
                 <div class="media-left">
-                    <p class="title is-4">John Smith</p>
+                    <p class="title is-4">The Nature of Ayahuasca</p>
                     <span class="tag is-light">Ayahuasca</span>
                 </div>
               </div>
@@ -508,7 +549,7 @@
                 <a href="#">#css</a> <a href="#">#responsive</a>
               </div>
               <div class="buttons">
-                <button class="button is-light">Read More</button>
+                <button class="button is-success">Read More</button>
               </div>
             </div>
           </div>
@@ -519,15 +560,16 @@
         <div class="column is-one-third">
           <div class="card">
             <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-              </figure>
+              <a href="https://www.youtube.com/embed/IwHNQx_hvjI"></a>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/IwHNQx_hvjI" title="YouTube video player" 
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </a>
             </div>
             <div class="card-content">
               <div class="media">
                 <div class="media-left">
-                    <p class="title is-4">John Smith</p>
-                    <span class="tag is-light">Traditions</span>
+                    <p class="title is-4">Water is Life:<br>Ancestral Wisdom</p>
+                    <span class="tag is-light">Wisdom</span>
                 </div>
               </div>
               <div class="content">
@@ -547,20 +589,21 @@
         <div class="column is-one-third">
           <div class="card">
             <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-              </figure>
+              <a href="https://www.youtube.com/embed/0tKXId-QX-g">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/0tKXId-QX-g" title="YouTube video player" 
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </a>
             </div>
             <div class="card-content">
               <div class="media">
                 <div class="media-left">
-                    <p class="title is-4">John Smith</p>
-                    <span class="tag is-light">Kambo</span>
+                    <p class="title is-4 wrap">Chief Cohalia explains the<br>Condor Eagle prophecy</p>
+                    <span class="tag is-light">Wisdom</span>
                 </div>
               </div>
               <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                Listen to Chief Cohaila explain the Condor Eagle Prophecy. 
+Chief Cohaila is the very first indigenous leader from Peru to to receive the Chief bundle by Leonard Crowdog spiritual leader and Chief. <a>@bulmaio</a>.
                 <a href="#">#css</a> <a href="#">#responsive</a>
               </div>
               <div class="buttons">
@@ -583,7 +626,7 @@
               <div class="media">
                 <div class="media-left">
                     <p class="title is-4">John Smith</p>
-                    <span class="tag is-light">San Pedro</span>
+                    <span class="tag is-light">Ayahuasca</span>
                 </div>
               </div>
               <div class="content">
@@ -639,7 +682,7 @@
               <div class="media">
                 <div class="media-left">
                     <p class="title is-4">John Smith</p>
-                    <span class="tag  is-light">San Pedro</span>
+                    <span class="tag is-light">Traditions</span>
                 </div>
               </div>
               <div class="content">
@@ -654,17 +697,14 @@
           </div>
         </div>
 <!-- END CARD 6 -->
-  </section>
-  </section>
+        </div>
+      </section>
+    </section>
 
-<!-- END VIDEO GALLERY -->
-
-
-
+<!-- END VIDEO SERIES -->
 
 
-
-
+<!-- FOOTER BEGINS -->
 
 <footer class="footer footer-background-color">
   <div class="container">
@@ -702,6 +742,8 @@
 </div>
   </div>
 </footer>
+
+<!-- END OF FOOTER -->
 
 <script>
 filterSelection("all")
