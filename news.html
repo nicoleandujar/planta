@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="Nicole Andujar">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css">
+      <link rel="stylesheet" href="css/pmaster.css">
+      <script src="https://use.fontawesome.com/64afe4b195.js"></script>
+      <title>P L A N T A</title>
+      <link rel="stylesheet" href="styles/debug.css">
+
+<!-- NAVBAR -->
+  <div class="container">
+    <nav class=" navbar has-shadow is-white px-6" role="navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://www.loveisthemedicine.com">
+          <img src="http://nicoleandujar.com/images/planta-logo.png" alt="planta logo" style="max-height:70px">
+        </a>
+
+        <a class="navbar-burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+
+<div class="navbar-menu" id="nav-links">
+  <div class="navbar-end">
+        <a class="navbar-item">About</a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">Plant Medicines</a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href='/ayahyasca'>Ayahuasca</a>
+          <a class="navbar-item" href='/peyote'>Peyote</a>
+          <a class="navbar-item" href="/sanpedro">San Pedro</a>
+          <a class="navbar-item" href="/mushrooms">Psylocibin Mushrooms</a>
+        </div>
+       </div>
+
+
+          <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">Traditions</a>
+              <div class="navbar-dropdown">
+            <a class="navbar-item" href='/shipibo'>Shipibo</a>
+            <a class="navbar-item" href='/yawanawa'>Yawanawa</a>
+            <a class="navbar-item" href='/wixarika'>Wixarika</a>
+            <a class="navbar-item" href='/nativeamericanchurch'>Native American Church</a>
+          </div>
+        </div>
+
+         <a class="navbar-item">Resources</a>
+
+         <a class="navbar-item">Workshops</a>
+      </div>
+      </div>
+
+    </nav>
+<!-- END NAVBAR -->
+
+<!-- BERADCRUMBS -->
+      <!-- <div class="section is-centered  pt-4 pb-4 ">
+        <nav class="breadcrumb is-small has-succeeds-separator">
+          <ul>
+            <li><a class="has-text-info" href="#">Home</a></li>
+            <li><a class="has-text-grey" href="#">About</a></li>
+            <li><a class="has-text-grey" href="#">Plant Medicines</a></li>
+            <li><a class="has-text-grey" href="#">Resources</a></li>
+            <li class="is-active"><a href="#" aria-current="page">Workshops</a></li>
+          </ul>
+        </nav>
+      </div> -->
+<!-- END BERADCRUMBS -->
+<style>
+  body {
+    font-family: 'Work Sans', sans-serif;
+    background: #E2E0DD;   /* #F3FFF6; #E2E0DD*/
+}
+
+header {
+    background: #fff;
+    padding: 2em 0;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+  .copy-over-img {
+    position: absolute;
+	  bottom: 0;
+    background: white;
+    /* display: block; */
+    width: 100%;
+    /* padding: 10px; */
+
+  }
+  h2 {
+    bottom: 250px;
+    left: 75px;
+    width: 100%;
+  }
+  .caption {
+    position: absolute;
+    bottom: 80px;
+    padding-left: 40px;
+  }
+  h2 span{
+    color: #fff;
+    font: bold 24px/45px 'Work Sans', sans-serif;
+    background: rgba(57, 86, 54, 0.8);
+    padding: 10px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font: bold  'Work Sans', sans-serif;
+  }
+  #myBtnContainer {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+  .btn {
+  font-family: 'Work Sans', sans-serif;
+  font-size: .9rem;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  color:beige ;
+  background-color:#1E301E;
+  border-radius: 8px;
+}
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #8E7150;
+  color: #fff;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color:darkolivegreen;
+  color:white;
+}
+
+iframe {
+ width: 420px;
+}
+
+.wrap {
+  height: auto !important;
+  white-space: unset !important;
+  width: 100%
+}
+
+</style>
+
+  </head>
+
+  <body>
+    <!-- .HERO -->
+    <section class="hero ">
+      <div class="container">
+          <img src="images/ayanews.jpg" alt="ayahuasca brew">
+          <div class="copy-over-img">
+            <div class="caption">
+              <h2><span>Plant Medicine</span></br></h2>
+              </span></h2>
+              <!-- <div class="pt-3 pb-3">
+                <button class="btn px-3 mx-1">Read More</button>
+              </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- /.HERO -->
+
+
+<!-- WELCOME Section -->
+  <section class="section has-background-light">
+    <div class="container">
+      <!-- <h3 class="is-size-1 has-text-centered has-text-weight-bold">New to Plant Medicine?</h3> -->
+      <p class="is-size-2-desktop is-size-3-tablet is-size-4-mobile px-6 mb-1 has-text-weight-bold">New to Plant Medicine?</p>
+      <p class="px-6 mb-1 has-text-weight-bold">by Daniel Mirante <time class="is-size-7 px-2" datetime="2021-5-6">13 May 2021 • 3:15 P.M.</time></p>
+      
+      <!-- DATE -->
+      
+<div class="px-6">
+        <span class="icon"><i class="fas fa-share-alt"></i></span>
+        <!-- <span class="icon"><i class="fa fa-instagram"></i></span> 
+        <span class="icon"><i class="fa fa-facebook"></i></span> -->
+        <span class="icon"><i class="fa fa-envelope"></i></span>
+        <!-- <span class="icon"><i class="fab fa-youtube"></i></span> -->
+    </div>  
+
+      <div class="buttons px-6 pt-3">
+        <button class="btn">Download PDF</button>
+      </div>
+
+      <p class="title px-6">What Is Ayahuasca?</p>
+
+      <p class="px-6"><strong>Ayahuasca</strong> is an Amazonian plant medicine that has been used in a sacred context by indigenous and mestizo healers in Peru, 
+        Colombia, Ecuador and Brazil for hundreds, and possibly thousands, of years. Made from the mixture of 2 (or more) p
+        lants found in the Amazon jungle–the ayahuasca vine (Banisteriopsis caapi), and the chacruna leaf (Psychotria viridis), 
+        which contains the powerful psychoactive dimethyletryptamine (DMT), it is a brew capable of inducing altered states of consciousness. 
+        The word ayahuasca is based in the Quechua language and translates to “vine of the soul” or “vine of the spirits”. It goes 
+        by many different names according to region, such as oni, caapi, natema, yajé, yagé, nepe, shuri, kamalampi, kaji and others throughout the Amazon Basin1.</p>
+      
+     <p class="px-6">Ayahuasca (aya-spirit/dead, waska-vine/rope) or Yage (ya-hey) are native Amazonian names for the jungle vine Banisteriopsis Caapi, and the 
+        medicinal tea prepared from it. Ayahuasca is used throughout the Upper Amazon to enable access to the visionary or mythological world and for physical, 
+        mental and spiritual healing Dobkin de Rios 1972, Grof 1994, Andritsky 1984).
+
+    <p class="px-6 has-text-weight-bold">Constituents</p>
+            
+    <p class="px-6">The Banisteriopsis caapi vine is a Malpighiaceous jungle liana found in the tropical regions of Peru, Bolivia, Panama, Brazil, the Orinoco 
+        of Venezuela and the Pacific Coast of Colombia/Ecuador. The vine is the common base ingredient of the Ayahuasca tea. B. caapi contains beta-carbolines 
+        that exhibit sedative, hypnotic, anti-depressant, monoamine oxidase inhibiting, and threshold visionary activity.
+            
+    <p class="px-6"> Ayahuasca is a synergystic potion. A wide variety of admixture plants is used by the indigenous tribes of the Upper Amazon. Vine-only brew is sometimes 
+       used. Most typically the vine is mixed with a tryptamine carrying plant. The foliage of Psychotria viridis (Chacruna) is the principal admixture of Ayahuasca          
+       potions employed throughout Peru and Brazil. In Columbia and Amazonian Ecuador, the plant Diplopterys cabrerana (Chaliponga) is often used instead.</p>
+
+     <p class="px-6">  These plants provide the “light” or the visionary qualities, but these tryptamine-containing plants are not orally active alone. The monoamine oxidase 
+        inhibiting action of the B. caapi vine makes it possible for the tryptamines to produce powerful visions. In turn, the admixture plants potentiate the Vine.</p>
+            
+    <p class="px-6">  The combination of the Caapi vine with Chacruna or Chaliponga is sometimes known as a marriage of Power and Light. This marriage unlocks the full shamanic 
+        mareacion and its visionary mythological vistas.</p>
+            
+     <p class="px-6">  This medicine has been used for millennia in order to enter the sacred supernatural world, to heal, divine, and gain insight into nature and spirit.</p>
+            
+     <p class="px-6 has-text-weight-bold">Antiquity</p>
+            
+    <p class="px-6">The use of Ayahuasca may well be primordial, its use extending back to the earliest aboriginal inhabitants of the Upper Amazon region. Abstract liminal 
+        patterns such as zigzags, serrated lines and geometric forms found on ancient relics and traditional textiles, pottery and body art of various tribes represent the perceptual threshold between everyday and transpersonal realms of consciousness. These relics, combined with an abundance of myths describing the origin of Ayahuasca as deeply intertwined cosmologically with the creation of the universe, earth, and tribal people, indicate a long history of human use.
+            
+     <p class="px-6"> Ayahuasca is a revered and respected sacred medicine, considered a spiritual and physiological panacea par excellence, because its medicine can instruct 
+        in healing, visionary insight, and the art of using plants for various purposes. Sometimes it is referred to simply as la Medicina – the Medicine.</p>
+            
+    <p class="px-6">            For indigenous people such as the Napo Runa of Ecuador, Ayahuasca is “the mother of all medicines” and “the mother of all plants.” Other peoples regard 
+         Ayahuasca as a Grandfather or Grandmother. Ayahuasca, “the Vine with a soul,” is perceived as a communicating being who guides, teaches, and heals. 
+         Ayahuasca also acts as a mediator and translator between the human and plant worlds, and teaches humans how to communicate with plants and use them for 
+        various purposes.</p>
+            
+    <p class="px-6 has-text-weight-bold">Modern use</p>
+            
+    <p class="px-6">In modern times, many new Ayahuasca traditions have continued to grow like the spreading tendrils of the Vine. Ayahuasca seems to adapt itself 
+        to the needs and intents of those who use it the way the vine adapts its form to the shape of the tree on which it grows.
+        </p>
+        <p class="px-6">At the turn of the twentieth century, during the Rubber Boom, mestizo rubber tappers entered Amazonia. Because rubber had to be harvested from wild, 
+        separated trees, these men worked mostly alone in the forest. (Many Indians were brutally enslaved by rubber companies as well, but that is another story.) When these mestizos fell ill, they had to turn to Indian curanderos. Some of them ended up apprenticing to the curanderos and learning the Ayahuasca practices. In other cases, mestizo rubber tappers were kidnapped by Indians and lived several years with them.
+         </p> 
+        <p class="px-6">From that, as the mestizo cities of Iquitos and Pucallpa grew, so did a mestizo Ayahuasca tradition that blended indigenous Ayahuasca practices with some 
+         Catholic worldview.
+         </p>
+         <p class="px-6">The next branch of new Ayahuasca tradition also came from a rubber tapper. The Afro-Brazilian Raimundo Irineu started Santo Daime, a church that blends 
+        African traditions with esoteric Christianity and Ayahuasca. Santo Daime replaces the older practice of individual shamanism with a kind of group shamanism, 
+        in which an entire group of people can perform healings collectively.
+        </p>
+            
+    <p class="px-6"> Other syncretic Ayahuasca churches followed, such as the Centro Espírita Beneficente União do Vegetal (UDV) and Barquinha in Brazil and Soga del Alma in Peru. 
+        Santo Daime and UDV have become international, with meetings in many countries in the world.
+        </p>
+    <p class="px-6"> There are also syncretic movements with Sufism (Fatimiya Sufi Order), Gnosticism (Gnostisismo Revolutionario de la Concienca de Krishna, based in Colombia), 
+        Sikhism, and Wicca (Padeva). New syncretic movements will undoubtedly continue to appear.
+        </p>
+    <p class="px-6">Another syncretic movement is between Ayahuasca shamanism and western psychotherapy. The most famous center for this is Takiwasi, a treatment center for drug 
+       addiction in Tarapoto, Peru, in which Ayahuasca shamans and western psychotherapists work together using Ayahuasca to help treat addicts of cocaine and other drugs.</p>
+        </p>
+    <p class="px-6">Yet another Ayahuasca tradition, which began in the 1980s but became stronger in the late 1990s, is that of the western psychedelics tradition. Within this 
+        tradition, a custom started of using the word “ayahuasca” to mean any combination of MAOI and DMT, because the chemical action on the brain was what mattered. 
+        Their perspective was that Ayahuasca was simply an orally active form of DMT, the B. caapi vine was merely the potentiator of the DMT, and that any combination 
+        of plants, or even of pharmaceuticals and laboratory chemicals, that similarly resulted in orally active DMT was basically the same as Ayahuasca. Within the 
+      western psychedelic tradition, the term “ayahuasca” is often used to refer to a brew made of Peganum harmala and a DMT source, typically Mimosa hostilis.
+         </p>
+   <p class="px-6"> Since some in the western psychedelic movement are serious spiritual seekers, within the western psychedelic movement has developed a tradition of using 
+        Ayahuasca primarily for mystical experiences, and for that purpose Ayahuasca and Mimosa/Rue can both serve — they can both be good catalysts for profound cosmic 
+            mystical experiences — as can many other Plant Teachers. But they are each distinct Teachers, each with its own distinct personality, each to be be respected 
+            for itself.
+            </p>
+            <p class="px-6">A new Ayahuasca syncretic tradition is developing via what is known as “Ayahuasca tourism.” Individuals from industrialized countries are traveling to South 
+            America to drink Ayahuasca with Amazonian healers, and Amazonian healers are learning to adapt their healing traditions to the needs of patients from the 
+            western world. This is creating a new syncretism, because, just as mestizo curanderismo adapted to the issues of mestizo people, the needs, issues, and 
+            quests of people from industrialized countries are deeply different from kinds of problems and illnesses that Amazonian indigenous and mestizo curanderos 
+            have traditionally had to address. As a result, a new tradition is developing as some curanderos learn to adapt to the needs of foreigners; some curanderos 
+            are creating retreats specifically geared to foreigners (often in partnership with foreigners) and many of these have web sites.</p>
+        </p>
+            
+            <p class="px-6">  The Ayahuasca tourism industry is centered in Iquitos, Peru, and to a lesser extent Pucallpa. Traditional healers in the Amazon, both indigenous and mestizo, 
+            charge for their services; reciprocation is important in Amazonian and Andean culture, and in the Amazonian world one’s willingness to offer something of 
+            value communicates the seriousness of one’s intent to the spirits. Needless to say, since foreigners represent money, there are increasing numbers of 
+            charlatans in these regions who represent themselves as trained shamans and offer Ayahuasca to tourists. These individuals can copy the outward forms of 
+            ceremonies they have witnessed, but in the Amazon a real shaman, or curandero, or vegetalista, or yachak, or paye, or paqo, has undergone highly disciplined 
+            training. People considering visiting these regions to drink Ayahuasca are encouraged to do research and educate themselves first.
+            </p>
+            <p class="px-6">            Individuals who want less touristic, gringo-oriented settings, who want to share Ayahuasca in the context of real life of Amazonian people, may go to other 
+            regions, including Colombia, Ecuador, or other parts of Peru. Indigenous as well as mestizo people are very open about sharing Ayahuasca (but payment is 
+            expected in return). By sharing Ayahuasca with foreigners, the Indians gain allies, because Ayahuasca drunk in the rainforest frequently converts the drinker 
+            into a passionate defender of the rainforest. (Indeed, Ayahuasca may have something to do with why the Amazon rainforest has become a passionate international 
+            cause in the past couple of decades.)
+            </p>
+            <p class="px-6">            Sometimes Amazonian healers actually take on western apprentices and train them in their ancient practices. These western apprentices — who may remain in South 
+            America helping to run Ayahuasca retreats, or who may bring their healing practices back to their own countries, and who may blend their ayahuasquero training 
+            with other training they have had — may be considered part of the broader “neo-shamanic” movement, a movement to adapt shamanism to the needs and problems of 
+            the industrialized world.</p>
+            
+        <p class="px-6 has-text-weight-bold">Legality</p>
+            
+        <p class="px-6">No plants (natural materials) containing DMT are at present controlled under the United Nations 1971 Convention on Psychotropic Substances. 
+            Consequently, preparations (e.g.decoctions) made of these plants, including Ayahuasca are not under international control and, therefore, not subject 
+            to any of the articles of the 1971 Convention.
+            http://www.erowid.org/chemicals/ayahuasca/ayahuasca_law.shtml
+        </p>            
+    <p class="px-6">In Brazil, a protracted legal battle in the 1980’s ended with the Brazilian government finding Ayahuasca churches use of Ayahuasca was safe and showed 
+            no signs of harming the members. In 1992, Brazil formally legalized the constituent plants and Ayahuasca tea.</p>
+            </p>
+            <p class="px-6">In the United States, the plants that are used to make Ayahuasca are legal. However, the chemical N,N-dimethyltryptamine (DMT), which is contained in the 
+            admixture plants, is a controlled substance. While it is not illegal to possess or sell plants containing DMT, processing, preparing, or having the intent 
+            to prepare for consumption would be considered illegal. However, brewing Ayahuasca with the B. caapi vine alone would be completely legal in the United States.
+            </p>
+            <p class="px-6">In Canada, harmaline (contained in the B. caapi vine) is a Schedule III controlled substance, therefore Ayahuasca brews may violate the law
+            </p>
+            <p class="px-6">In 2005, France added Banisteriopsiis caapi, Peganum harmala, Psychotria viridis, Diplopterys cabrerana, Mimosa hostilis, Banisteriopsis rusbyana, 
+            harmine, harmaline, tetrahydroharmine (THH), haroml, and harmalol to the list of controlled substances.
+            </p>
+            <p class="px-6">In Australia, harmala is a controlled substance, but the vine is not.
+            </p>
+            <p class="px-6">The Santo Daime church has successfully established its right to use Ayahuasca for spiritual/religious purposes, first in Brazil, and then through 
+            legal battles in Netherlands and Spain. In 2006, the US Supreme Court unanimously ruled in favor of the UDV church right to use Ayahuasca in their services.
+            </p>
+            <p class="px-6">Legal issues forum is found at http://forums.ayahuasca.com/phpbb/viewforum.php?f=15 </p>
+            </div>
+            <p class="px-6 has-text-weight-bold">Cultivation</p>
+            
+            <p class="px-6">Growing these plants will be one of the most rewarding aspects of your experience. Growing the plants yourself helps you develop a 
+            relationship with the plants. Using an Ayahuasca brew with plants you grew deepens the experience; the plants will have gotten to know you and 
+            this will emerge as a very important aspect in your journeys with Ayahuasca.
+            Even growing them as companion plants can deepen your experience with the Ayahuasca brew.
+            
+            <p class="px-6 has-text-weight-bold">The Cultivation forum is found here:</p>
+
+           <p class="px-6"> http://forums.ayahuasca.com/phpbb/viewforum.php?f=13</p>
+            
+            <p class="px-6 has-text-weight-bold">Preparation</p>
+            
+            <p class="px-6">A basic preparation for Ayahuasca (Caapi and Chacruna) can be found here:</p>
+            <p class="px-6"> http://forums.ayahuasca.com/phpbb/viewtopic.php?t=9588</p>
+            
+            <p class="px-6">Prepared Ayahuasca brew can keep its potency in storage almost indefinitely, although its taste may become more unpleasant. 
+                The unbrewed plant material loses some potency in the original drying process, but after that remains stable for years.</p>
+            
+   <p class="px-6 has-text-weight-bold">The Preparation forum is found here:</p>
+    <p class="px-6">http://forums.ayahuasca.com/phpbb/viewforum.php?f=2</p>
+            
+            <p class="px-6 has-text-weight-bold">Safety precautions</p>
+            
+            <p class="px-6"> Care should be taken with foods (e.g tyramine/protein containing foods) and drugs (e.g SSRI s) that have a contraindication for MAOI’s.
+            </p>
+            <p class="px-6">The beta-carbolines present in Banisteriopsis caapi, primarily harmine and tetrahydroharmine, inhibit the enzyme Monoamine Oxidase and reduces 
+            the metabolism of serotonin. Due to the MAO-inhibiting action of the vine, otherwise non-orally-active tryptamines such as N-N DMT and 5-MEO DMT 
+            from the admixture plants (Psychotria viridis or Diplopterys cabrerana) can reach receptor sites in the brain, unlocking the entheogenic mareacion.</p>
+            </p>
+            <p class="px-6 has-text-weight-bold">  This MAOI action also makes certain foods and pharmaceuticals hazardous that otherwise would not be.</p>
+            
+            <p class="px-6 has-text-weight-bold">Lists of foods that should be avoided can be found here:</p>
+            <p class="px-6">http://www.ayahuasca.com/?p=10</p>
+                <p class="px-6"> There are no records of fatalities from eating proscribed foods, but there are numerous reports of severe headaches.</p>
+            
+            <p class="px-6 has-text-weight-bold"></p> Interaction with pharmaceuticals can be much more dangerous than food interactions.</p>
+            
+            <p class="px-6">  Many antidepressants (eg, Paxil), tricyclics, heterocyclics, SSRI’s, migraine medication such as sumatriptan (Imitrex) amphetamines, and opiates 
+            may also cause serious drug-drug interactions with MAOI’s — even some OTC pharmaceuticals like antihistamines, decongrestants, ephedrine and pseudoephedrine, 
+            diet pills, and allergy medication can have potentially serious interaction with Ayahuasca.</p>
+            
+            <p class="px-6"> If you are taking pharmaceuticals, please inform yourself about the potential for MAOI interaction before taking Ayahuasca. If you don’t find an existing 
+            thread about your medication on the Information forum, you are encouraged to start one.</p>
+            
+            <p class="px-6"></p>Lastly, there is a very rare and idiosyncratic reaction to caffeine and Ayahuasca in a very few individuals. While well under 1% of people have this reaction, 
+            it can be life-threatening to those few to combine even a small amount of caffeine with Ayahuasca. There is evidence that this reaction may be linked to a fast metabolism or a history of stimulant abuse. Until you know you are not in this category, be careful combining Ayahuasca with caffeine. A discussion of this may be found here:
+            http://forums.ayahuasca.com/phpbb/viewtopic.php?t=6509
+            <p class="px-6">See also</p>
+            <p class="px-6">http://forums.ayahuasca.com/phpbb/viewtopic.php?t=6549</p>
+            <p class="px-6">http://forums.ayahuasca.com/phpbb/viewtopic.php?t=7088</p>
+            
+            <p class="px-6">Purification</p>
+            
+            <p class="px-6">There is another aspect to diet with Ayahuasca, the spiritual dieta. The dieta has many variations, because it is practiced in many cultures (practically all traditional Ayahuasca cultures have a form of dieta, which is remarkably similar across cultures that are otherwise very dissimilar), and because it has various purposes: being healed, learning how to heal others, and learning how to communicate with plants. A dieta can last any length of time from one day to years. In its essence it involves avoiding strongly flavored food and sexual stimulation. In a western setting, it would undoubtedly include fasting from television and mass media as well. For more threads on dieta, click here:
+            http://forums.ayahuasca.com/phpbb/viewtopic.php?t=7851</p>
+            
+            <p class="px-6"> The Purge</p>
+
+            
+        <p class="px-6">“When it came, it was earthshaking! ALL the filth, negativity, malice, ill will, and unforgiveness of myself, was loosed from me. 
+                Image after image of all life’s unpleasantries, ill will, the dual part of my nature, that evil that is seamlessly woven into the very fabric of 
+                much of this world, and pollutes, and deviates us from our true soul/self, it was all gloriously expelled over the course of 20-30 long, glorious,
+                 vomit saturated minutes.”</p>
+            
+          <p class="px-6">The Purge may be strong or mild, may happen several times in one session or may not happen at all, but it is a central part 
+                     of the Ayahuasca There are ways to reduce the purge, but if you can learn to accept it and flow with it can actually be very enjoyable. It is a 
+                     release and purification. If you fight it, it will be more difficult and unpleasant. Give in to it and just go with it. Imagine all of the distractions, 
+                     discomfort and pain you have within you being released with each purge. Let it flow as it is supposed to. Accept it as part of the experience.
+            </p>
+            <p class="px-6">
+                After it is all through you will feel very good, very clean and pure.</p>
+            
+            <p class="px-6">
+                The clearer ones system, the better able one is to receive and integrate spiritual energies the knowledge of Ayahuasca. 
+                The concept of subtle body phlegm is an important one in Amazonian shamanism. Vegetalistas say that Ayahuasca is needed for cleansing all the 
+                flemosidades (phlegm formations) that accumulate in the intestines. The flemosidades are believed to arise from environmental toxins, certain foods, 
+                trauma (susto, soul loss), and moral transgressions such as ill will, etc. Analogous to blockages of chi in the meridians, or prana in the nadis, 
+                flemosidades disrupt the smooth functioning of the body and mind. Clearing the flemosidades prepares the body to journey deeper into health and wisdom.
+           </p> 
+           <p class="px-6">
+               Effects</p>
+           <p class="px-6">             
+            The Ayahuasca potion is a multi-levelled medicine that works on both the soma and psyche. It is very difficult to try to say exactly ‘what’ Ayahuasca 
+            does or ‘how’, because it presents a profound mystery to the human psyche.
+            </p>
+            <p class="px-6">
+                Since it is for no one person to say what Ayahuasca is and what it does, this website exists as a means for explorers to exchange information 
+                and insight into this profound Medicine. </p>
+        </p>
+    
+     
+    </div>
+  </section>
+
+
+  <section>
+
+    
+    </section>
+
+
+    <section class="container">
+
+    </section>
+<!-- FOOTER BEGINS -->
+
+<footer class="footer footer-background-color">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-5">
+          <strong>PLANTA</strong> ©2021</p>
+          <p> <strong>A plant medicine resource website.</strong> </p>
+          <p>Our main focus is to provide high quality, objective, and infromative ceremony content from all over the world.</p>
+        </div>
+        <div class="column is-2">
+          <p><strong>Navigation</strong></p>
+          <p>Home</p>
+          <p>Plant Medicines</p>
+          <p>Resources</p>
+          <p>Workshops</p>
+      </div>
+      <div class="column is-2">
+        <p><strong>Links</strong></p>
+        <p>About</p>
+        <p>Contact</p>
+        <p>Sitemap</p>
+        <p>Donate</p>
+    </div>
+    <div class="column is-3">
+      <p><strong>Follow Us</strong></p>
+      <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-home"></i>
+      </span>
+  
+    </span>
+      <p>Contact</p>
+      <p>Sitemap</p>
+      <p><a href="http://planta.today">planta.today</a></p>
+  </div>
+    </div>
+  </footer>
+  
+  <!-- END OF FOOTER -->
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+<script src="assets/index.js"></script>
+  </body>
+</html>
