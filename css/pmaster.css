@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 body {
-    font-family: 'Work Sans', sans-serif;
-    background: #fff;   /* #F3FFF6; #E2E0DD*/
+  font-family: 'Work Sans', sans-serif;
+  background: #E2E0DD;   /* #F3FFF6; #E2E0DD*/
 }
+
 
 header {
     background: #fff;
@@ -64,6 +66,10 @@ p {
   color: #fff;
 }
 
+.btn a {
+  color: #fff;
+}
+
 /* Add a dark background color to the active button */
 .btn.active {
   background-color:darkolivegreen;
@@ -71,12 +77,50 @@ p {
 }
 
 iframe {
- width: 420px;
+  width: 420px;
+ }
+ 
+ .wrap {
+   height: auto !important;
+   white-space: unset !important;
+   width: 100%
+ }
+
+.news {
+    width: 900px;
+    margin: 0 auto;
 }
 
-.wrap {
-  height: auto !important;
-  white-space: unset !important;
-  width: 100%
+
+blockquote {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 1.75rem;
+  line-height: 2.5rem;
+  color: #1e831e;
+  text-align: center;
+  margin: 2rem 4rem;
 }
 
+
+figure {
+  width: 50%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  padding: 20px 0;
+}
+
+
+figcaption {
+  font-size:.75rem ;
+  font-style: oblique;
+  margin-left: 50px;
+  text-align: center;
+}
+
+
+.mainimg { 
+  padding-top: 20px;
+}
