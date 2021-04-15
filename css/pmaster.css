@@ -45,6 +45,15 @@ p {
   h1, h2, h3, h4, h5, h6 {
     font: bold  'Work Sans', sans-serif;
   }
+
+a {
+    color: #1e831e;
+  }
+
+/* .container {
+  width:1000px; ;
+} */
+
   #myBtnContainer {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -104,11 +113,9 @@ blockquote {
 
 
 figure {
-  width: 50%;
   text-align: center;
   font-style: italic;
   font-size: smaller;
-  text-indent: 0;
   padding: 20px 0;
 }
 
@@ -120,7 +127,11 @@ figcaption {
   text-align: center;
 }
 
-
 .mainimg { 
   padding-top: 20px;
+}
+
+.articleimg { 
+  width: 50%;
+
 }
