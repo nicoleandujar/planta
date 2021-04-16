@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald&family=Tinos:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 body {
   font-family: 'Work Sans', sans-serif;
@@ -47,7 +46,7 @@ p {
     font: bold  'Work Sans', sans-serif;
   }
 
-  a {
+a {
     color: #1e831e;
   }
 
@@ -108,9 +107,10 @@ iframe {
 
 
 blockquote {
-  font-family: 'Tinos', serif;
-  font-size: 1.5rem;
-  line-height: 2.25rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 1.75rem;
+  line-height: 2.5rem;
   color: #1e831e;
   text-align: center;
   margin: 2rem 4rem;
@@ -130,7 +130,6 @@ figcaption {
   font-style: oblique;
   margin-left: 50px;
   text-align: center;
-  margin-bottom: 25px;;
 }
 
 .mainimg { 
@@ -139,13 +138,5 @@ figcaption {
 
 .articleimg { 
   width: 50%;
-}
 
-/* Gradient color1 - color2 - color1 */
-
-hr.style-one {
-  border: 0;
-  height: 1px;
-  background: #333;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
