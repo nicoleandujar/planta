@@ -37,6 +37,10 @@ p {
     bottom: 80px;
     padding-left: 40px;
   }
+.photocred {
+  font-size: .75rem;;
+}
+
   h2 span{
     color: #fff;
     font: bold 24px/45px 'Work Sans', sans-serif;
@@ -50,6 +54,7 @@ p {
   a {
     color: #1e831e;
   }
+  
 
 /* .container {
   width:1000px; ;
@@ -59,7 +64,7 @@ p {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-  .btn {
+  .btn  {
   font-family: 'Work Sans', sans-serif;
   font-size: .9rem;
   font-weight: bold;
@@ -71,6 +76,27 @@ p {
   border-radius: 8px;
   text-decoration: none ;
 }
+
+
+.sharethis-inline-share-buttons[data-network] {   
+  font-family: 'Work Sans', sans-serif;
+  font-size: .9rem;
+  border: none;
+  background-color:#1E301E;   
+  display: inline-block;   
+  padding: 12px 16px;   
+  cursor: pointer;   
+  font-weight: bold;   
+  color:beige ;
+  outline: none;
+  border-radius: 8px;
+  text-decoration: none ;
+}
+
+  &:hover, &:focus {            
+    background-color: #00c7ff;   }
+  
+ 
 /* Add a grey background color on mouse-over */
 .btn:hover {
   background-color: #8E7150;
