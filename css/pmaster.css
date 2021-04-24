@@ -75,6 +75,17 @@ p {
   text-decoration: none ;
 }
 
+.botondl  {
+  font-family: 'Work Sans', sans-serif;
+  color:#1E301E ;
+  background-color:beige;
+  border-radius: 8px;
+  text-decoration: none ;
+  border: none;
+  font-size: .9rem;
+  font-weight: bold;
+}
+
 
 .sharethis-inline-share-buttons[data-network] {   
   font-family: 'Work Sans', sans-serif;
