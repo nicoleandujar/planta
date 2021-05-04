@@ -29,7 +29,14 @@
 
   <div class="navbar-menu" id="nav-links">
     <div class="navbar-end">
-      <a class="navbar-item" href='about.html'>About</a>
+      <!-- <a class="navbar-item" href='about.html'>About</a> -->
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="about.html">About</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href='news.html'>News</a>
+        </div>
+      </div>
   
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">Plant Medicines</a>
@@ -58,6 +65,7 @@
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link" href="resources.html">Library</a>
               <div class="navbar-dropdown">
+                <a class="navbar-item" href='videos.html'>Video Gallery</a>
                 <a class="navbar-item" href='resources.html'>Resources</a>
                 <a class="navbar-item" href='resourcelist.html'>Downloads</a>
                             <!-- <a class="navbar-item" href='yawanawa.html'>Yawanawa</a>
@@ -66,7 +74,14 @@
           </div>
         </div>
 
-         <a class="navbar-item" href='workshops.html'>Workshops</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="workshops.html">Workshops</a>
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href='workshop1.html'>The Medicine Wheel</a>
+                
+          </div>
+        </div>
+        <!-- <a class="navbar-item" href='workshops.html'>Workshops</a> -->
       </div>
       
 
@@ -97,7 +112,11 @@
   <section class="section is-mobile section-padding-large has-background-light">
     <div class="container">
       <h3 class="is-size-1 has-text-centered has-text-weight-bold">Welcome!</h3>
-      <p class="has-text-centered px-4 mx-4"> Welcome to <strong>P LA N T A</strong>, a resource about the wonderful world of <em>Ayahuasca, Peyote, San Pedro,</em> and <em>Psilocybin Mushrooms</em> where we explore the healing, creative, cultural, traditional and scientific aspects of these entheogen. Explore <strong>Plant Medicines</strong> if you are new to the subject. Take a look at our <strong>Resources</strong>  to explore how you can help and serve the medicine community. And check out the <strong>Workshops</strong>  for continued education from wisdom keepers all over the world.
+      <p class="has-text-centered px-4 mx-4"> Welcome to <strong>P LA N T A</strong>, a resource about the wonderful world of <em>Ayahuasca, Peyote, 
+        San Pedro,</em> and <em>Psilocybin Mushrooms</em> where we explore the healing, creative, cultural, traditional and scientific aspects of 
+        these entheogen. Explore <a href="new-to-plants.html"> <strong>Plant Medicines</strong> </a>if you are new to the subject. Take a look at our 
+        <a href="resources.html"><strong>Resources</strong></a> to explore how you can help and serve the medicine community. And check out the 
+        <a href="workshops.html"><strong>Workshops</strong></a> for continued education from wisdom keepers all over the world.
       </p>
     </div>
   </section>
@@ -122,7 +141,7 @@
       </div>
     </div>
   </section>
-  
+  <hr>
 
   <!-- FEATURED ARTICLES -->
   <section class="section section-padding-large has-background-white">
@@ -132,7 +151,6 @@
       </p>
   
     </div>
-
 
 <!-- ARTICLES SECTION -->
   <section class="section">
@@ -327,6 +345,7 @@
 
   </section>
   </section>
+  <hr>
   <!-- END ARTICLE section -->
 
 <!-- IN THE NEWS SECTION -->
@@ -384,8 +403,9 @@
           </div>
         </div>
     </div>
-  </div>
+  </div>  
 </section>
+<hr>
 
 <!-- END IN THE NEWS -->
 
@@ -394,6 +414,7 @@
 <!-- CONSEVATION ARTICLES  -->
 
 <section class="section has-background-white">
+
   <div class="container">
     <h3 class="is-size-2 has-text-centered has-text-weight-bold">Conservation</h3>
   </div>
@@ -447,10 +468,11 @@
 <!-- END CONSERVATION SECTION -->
 
 <!-- VIDEO SERIES Section Header -->
-<section class="container is-mobile">    
+<section class="container is-mobile">  
+  <hr>  
 <section class="section section-padding-medium has-background-white">
       <div class="container">
-        <h3 class="is-size-2 has-text-centered has-text-weight-bold">Video Series</h3>
+        <h3 class="is-size-2 has-text-centered has-text-weight-bold">Video Gallery</h3>
         <p class="has-text-centered">Check out our amazing video gallery.</p>
         <p class="has-text-centered"><strong>FILTER</strong></p>
         <!-- TABS -->
@@ -472,9 +494,9 @@
 
 <!-- CARD 1 -->
     <div class="column ayahuasca is-one-third filtered">
-          <div class="card">
+          <div class="card gallery">
             <div class="card-image">
-                <a href="https://www.youtube.com/embed/6j0_glRnJxI"><iframe width="560" height="250" src="https://www.youtube.com/embed/6j0_glRnJxI" title="YouTube video player" frameborder="0" 
+                <a href="https://www.youtube.com/embed/6j0_glRnJxI"><iframe class="gallery" width="560" height="250" src="https://www.youtube.com/embed/6j0_glRnJxI" title="YouTube video player" frameborder="0" 
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </a>
             </div>
@@ -585,7 +607,7 @@
     </div>
   </div>
 </div>
-<!-- END CARD 5 -->
+<!-- END CARD 4 -->
 
 <!-- CARD 4 -->
         <!-- <div class="column wisdom is-one-third filetered">
@@ -753,10 +775,7 @@
 
 
 
-
-
-
-        </div>
+   </div>
 
         
         <!-- END GRID -->

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="Nicole Andujar">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css">
+      <link rel="stylesheet" href="css/pmaster.css">
+      <script src="https://use.fontawesome.com/64afe4b195.js"></script>
+      <title>P L A N T A</title>
+      <link rel="stylesheet" href="styles/debug.css">
+      <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=6079c35deb2c7a001176da62&product=inline-share-buttons" async="async"></script>
+  </head>
+<!-- NAVBAR -->
+  <div class="container">
+    <nav class=" navbar has-shadow is-white px-6" role="navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          <img src="http://nicoleandujar.com/images/planta-logo.png" alt="planta logo" style="max-height:70px">
+        </a>
+
+        <a class="navbar-burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+
+  <div class="navbar-menu" id="nav-links">
+    <div class="navbar-end">
+      <!-- <a class="navbar-item" href='about.html'>About</a> -->
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="about.html">About</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href='news.html'>News</a>
+        </div>
+      </div>
+  
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">Plant Medicines</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href='new-to-plants.html'>New to Plant Medicine?</a>
+              <a class="navbar-item" href='protocol.html'>Ceremony Protocol</a>
+              <a class="navbar-item" href='ayahuasca.html'>Ayahuasca</a>
+              <a class="navbar-item" href='peyote.html'>Peyote</a>
+              <!-- <a class="navbar-item" href="sanpedro.html">San Pedro</a>
+              <a class="navbar-item" href="mushrooms.html">Psylocibin Mushrooms</a> -->
+          </div>
+          </div>
+
+
+          <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">Traditions</a>
+              <div class="navbar-dropdown">
+            <!-- <a class="navbar-item" href='shipibo.html'>Shipibo</a>
+            <a class="navbar-item" href='yawanawa.html'>Yawanawa</a>
+            <a class="navbar-item" href='wixarika.html'>Wixarika</a> -->
+            <a class="navbar-item" href='nac.html'>Native American Church</a>
+            <a class="navbar-item" href='inipi.html'>Inipi Ceremony</a>
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="resources.html">Library</a>
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href='videos.html'>Video Gallery</a>
+                <a class="navbar-item" href='resources.html'>Resources</a>
+                <a class="navbar-item" href='resourcelist.html'>Downloads</a>
+                            <!-- <a class="navbar-item" href='yawanawa.html'>Yawanawa</a>
+            <a class="navbar-item" href='wixarika.html'>Wixarika</a>
+            <a class="navbar-item" href='nac.html'>Native American Church</a> -->
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="workshops.html">Workshops</a>
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href='workshop1.html'>The Medicine Wheel</a>
+                
+          </div>
+        </div>
+        <!-- <a class="navbar-item" href='workshops.html'>Workshops</a> -->
+      </div>
+      
+
+    </nav>
+<!-- END NAVBAR -->
+
+
+
+  <body>
+
+    <!-- .HERO -->
+    <section class="hero has-background-white">
+        <div class="container">
+            <img src="images/newshero.jpg" alt="jungle waterfall">
+            <figcaption class="herocredit">Photo by Quang Nguyen Vinh/Pexels</figcaption>
+            <div class="copy-over-img">
+              <div class="caption">
+                <h2><span></span></br></h2>
+                </span></h2>
+                <!-- <div class="pt-3 pb-3">
+                  <button class="btn px-3 mx-1">Read More</button>
+                </div> -->
+          </div>
+        </div>
+      </section>
+      <!-- /.HERO -->
+
+      <!-- VIDEO SERIES Section Header -->
+<section class="container is-mobile">  
+  <section class="section section-padding-medium has-background-white">
+        <div class="container">
+          <h3 class="is-size-2 has-text-centered has-text-weight-bold">In the News</h3>
+          <p class="has-text-centered">What's newsworthy in the world of Plant Medicine.</p>
+          <p class="has-text-centered"><strong>FILTER</strong></p>
+          <!-- TABS -->
+          <div class="has-text-centered pb-4" id="buttons">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('psychedelics')"> Psychedelics</button>
+            <button class="btn" onclick="filterSelection('legal')"> Legal</button>
+            <button class="btn" onclick="filterSelection('conservation')"> Conservation</button>
+            <button class="btn" onclick="filterSelection('traditions')"> Traditions</button>
+          </div>
+        <!-- END TABS -->
+  </div>
+
+
+<!-- ARTICLES SECTION -->
+<div class="container has-background-white">
+    <div class="columns is-multiline px-6">
+
+<!-- CARD 1 -->
+    <div class="column is-half legal psychedelics filtered">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-3by2">
+             <img src="images/california.png" alt="A vendor bags psilocybin mushrooms at a pop-up cannabis market in Los Angeles, May 24, 2019. (AP Photo/Richard Vogel, File)">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                  <p class="title is-5">California Inches Toward </br>Decriminalizing Psychedelics</p>
+                  <span class="tag is-light">Legal</span> <span class="tag is-light">Psychedelics</span>
+              </div>
+            </div>
+            <div class="content">
+                California senators pointed to the “failed” War on Drugs and new scientific evidence regarding the benefits of certain hallucinogens.
+            </div>
+            <div class="buttons">
+                <button class="btn">
+                    <a href="https://www.courthousenews.com/california-inches-toward-decriminalizing-psychedelics/?fbclid=IwAR0X1kRa21lpZ7PrABMivzoVXzbGOz8oAmvke3i4nlsUS15jAc56Rnm8qwA">Read More</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- END CARD 1 -->
+
+<!-- CARD 2 -->
+      <div class="column is-half traditions legal filtered">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-3by2">
+              <img src="images/tipi.jpg" alt="Becoming Supernatural book cover">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                  <p class="title is-5">Peyote and Religious Freedom:<br>How Legal Discourse, Race, and Identity <br>Shape Religion for
+                    American Indians</p>
+                  <span class="tag is-light">Traditions</span> <span class="tag is-light">Legal</span>
+              </div>
+            </div>
+            <div class="content">
+                This paper seeks to analyze how courts have interpreted religious freedom regarding
+                American Indian religion. Specifically, this project investigates the Native American Church
+                (NAC) and their legal battle for a federal exemption to use the substance peyote in religious
+                ceremonies.
+             
+            </div>
+            <div class="buttons">
+                <button class="btn"><a href="https://kb.osu.edu/bitstream/handle/1811/87496/1/honors_thesis.pdf">Read More</a></button>
+              </div>
+          </div>
+        </div>
+      </div>
+<!-- END CARD 2 -->
+
+<!-- CARD 3 -->
+      <div class="column is-half conservation filtered">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-3by2">
+              <img src="images/peyote3.jpg" alt="The Shaman and Ayahuasca book cover">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <p class="title is-5">Conservation efforts for Peyote</p>
+                  <span class="tag is-light">Conservation</span>
+              </div>
+            </div>
+            <div class="content">
+                Recommended technique for sustainable harvest of the peyote button.
+            </div>
+            <div class="buttons">
+                <button class="btn"><a href="https://cactusconservation.org/conservation/">Read More</a></button>
+              </div>
+          </div>
+        </div>
+      </div>
+<!-- END CARD 3 -->
+
+<!-- CARD 4 -->
+      <div class="column is-half conservation filtered">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-3by2">
+                <img src="images/caapi_dreams_by_donna_torres.jpg" alt="Ayahuasca Manifesto book cover">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                  <p class="title is-5">The Shaman’s Treasure: The Many Plants Added <br>to the Ayahuasca Brew</p>
+                  <span class="tag is-light">Conservation</span>
+              </div>
+            </div>
+            <div class="content">
+                It is a known fact that ayahuasca and yagé drinks consist of a pair of plants: vine or leaves of ayahuasca (Banisteriopsis...
+            </div>
+            <div class="buttons">
+                <button class="btn"><a href="http://www.ayahuasca.com/amazon/botany-ecology/plants-ayahuasca-shamanism/">Read More</a></button>
+              </div>
+          </div>
+        </div>
+      </div>
+<!-- END CARD 4 -->
+
+
+</section>
+</section>
+<!-- END ARTICLE section -->
+
+
+
+
+
+
+  
+
+
+<!-- FOOTER BEGINS -->
+
+<footer class="footer footer-background-color">
+  <div class="container">
+    <div class="columns">
+      <div class="px-6 column is-5">
+        <strong>PLANTA</strong> ©2021</p>
+        <p> <strong>A plant medicine resource website.</strong> </p>
+        <p>Our main focus is to provide high quality, objective, and infromative ceremony content from all over the world.</p>
+      </div>
+      <div class="column is-2">
+    </div>
+
+  <div class="column is-2">
+    <p><strong>Navigation</strong></p>
+    <p><a href="index.html">Home</a></p>
+    <p><a href="about.html">About</a></p> 
+    <p><a href="new-to-plants.html">Plant Medicines</a></p>
+    <p><a href="resources.html">Resources</a></p>
+    <p><a href="workshops.html">Workshops</a></p>
+</div>
+<div class="column is-3">
+  <p><strong>Web</strong></p>
+  <p>plantamedicine.com</p>
+  <!-- <p><a href="http://plantamedicine.com">plantamedicine.com</a></p> -->
+</div>
+  </div>
+</footer>
+
+<!-- END OF FOOTER -->
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filtered");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+<!-- script for burger menu mobile -->
+<script src="assets/index.js"></script>
+  </body>
+</html>

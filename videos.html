@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="Nicole Andujar">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css">
+      <link rel="stylesheet" href="css/pmaster.css">
+      <script src="https://use.fontawesome.com/64afe4b195.js"></script>
+      <title>P L A N T A</title>
+      <link rel="stylesheet" href="styles/debug.css">
+      <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=6079c35deb2c7a001176da62&product=inline-share-buttons" async="async"></script>
+  </head>
+<!-- NAVBAR -->
+  <div class="container">
+    <nav class=" navbar has-shadow is-white px-6" role="navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          <img src="http://nicoleandujar.com/images/planta-logo.png" alt="planta logo" style="max-height:70px">
+        </a>
+
+        <a class="navbar-burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+
+  <div class="navbar-menu" id="nav-links">
+    <div class="navbar-end">
+      <!-- <a class="navbar-item" href='about.html'>About</a> -->
+      
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="about.html">About</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href='news.html'>News</a>
+        </div>
+      </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">Plant Medicines</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href='new-to-plants.html'>New to Plant Medicine?</a>
+              <a class="navbar-item" href='protocol.html'>Ceremony Protocol</a>
+              <a class="navbar-item" href='ayahuasca.html'>Ayahuasca</a>
+              <a class="navbar-item" href='peyote.html'>Peyote</a>
+              <!-- <a class="navbar-item" href="sanpedro.html">San Pedro</a>
+              <a class="navbar-item" href="mushrooms.html">Psylocibin Mushrooms</a> -->
+          </div>
+          </div>
+
+
+          <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">Traditions</a>
+              <div class="navbar-dropdown">
+            <!-- <a class="navbar-item" href='shipibo.html'>Shipibo</a>
+            <a class="navbar-item" href='yawanawa.html'>Yawanawa</a>
+            <a class="navbar-item" href='wixarika.html'>Wixarika</a> -->
+            <a class="navbar-item" href='nac.html'>Native American Church</a>
+            <a class="navbar-item" href='inipi.html'>Inipi Ceremony</a>
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="resources.html">Library</a>
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href='videos.html'>Video Gallery</a>
+                <a class="navbar-item" href='resources.html'>Resources</a>
+                <a class="navbar-item" href='resourcelist.html'>Downloads</a>
+                            <!-- <a class="navbar-item" href='yawanawa.html'>Yawanawa</a>
+            <a class="navbar-item" href='wixarika.html'>Wixarika</a>
+            <a class="navbar-item" href='nac.html'>Native American Church</a> -->
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="workshops.html">Workshops</a>
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href='workshop1.html'>The Medicine Wheel</a>
+                
+          </div>
+        </div>
+        <!-- <a class="navbar-item" href='workshops.html'>Workshops</a> -->
+      </div>
+      
+
+    </nav>
+<!-- END NAVBAR -->
+
+
+
+  <body>
+   
+      <!-- .HERO -->
+    <section class="hero ">
+      <div class="container">
+          <img src="images/videosdeer.jpg" alt="deer in the forest">
+          <figcaption class="herocredit">Photo by: Dariusz Grosa/Pexels</figcaption>
+          <div class="copy-over-img">
+            <div class="caption">
+              <h2><span>Video Gallery</span></br></h2>
+              </span></h2>
+        </div>
+      </div>
+    </section>
+    <!-- /.HERO -->
+
+
+
+
+<!-- VIDEO SERIES Section Header -->
+<section class="container is-mobile">    
+<section class="section section-padding-medium has-background-light">
+      <div class="container">
+        <h3 class="is-size-2 has-text-centered has-text-weight-bold">Video Gallery</h3>
+        <p class="has-text-centered">Check out our amazing video gallery.</p>
+        <p class="has-text-centered"><strong>FILTER</strong></p>
+        <!-- TABS -->
+        <div class="has-text-centered pb-4" id="buttons">
+          <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+          <button class="btn" onclick="filterSelection('ayahuasca')"> Ayahuasca</button>
+          <button class="btn" onclick="filterSelection('peyote')"> Peyote</button>
+          <button class="btn" onclick="filterSelection('mushrooms')"> Mushrooms</button>
+          <button class="btn" onclick="filterSelection('sanpedro')"> San Pedro</button>
+          <button class="btn" onclick="filterSelection('traditions')"> Traditions</button>
+          <button class="btn" onclick="filterSelection('wisdom')"> Wisdom</button>
+        </div>
+      <!-- END TABS -->
+
+      <!-- VIDEO SERIES SECTION -->
+
+      <div class="columns is-multiline is-one-third">
+      
+
+<!-- CARD 1 -->
+    <div class="column ayahuasca is-one-third filtered">
+          <div class="card">
+            <div class="card-image">
+                <a href="https://www.youtube.com/embed/6j0_glRnJxI"><iframe width="560" height="250" src="https://www.youtube.com/embed/6j0_glRnJxI" title="YouTube video player" frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </a>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                    <p class="title is-4">The Nature of Ayahuasca</p>
+                    <span class="tag is-light">Ayahuasca</span>
+                </div>
+              </div>
+
+              <div class="content">
+                A documentary exploring the use of Ayahuasca as a holistic medicine. A film by Gavin Hoffman: Director, Cameraman, Writer, Producer, Animator, Editor, Soundman.
+                <a href="https://ko-fi.com/gavinhoffman">Gavin Hoffman</a> 
+              </div>
+              <div class="buttons ayahuasca">
+                <button class="btn ayahuasca"> <a href="https://www.youtube.com/embed/6j0_glRnJxI">Watch here</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+  <!-- END CARD 1 -->
+
+  <!-- CARD 2 -->
+        <div class="column wisdom is-one-third filtered">
+          <div class="card">
+            <div class="card-image">
+              <a href="https://www.youtube.com/embed/jifVr5z0D5M"></a>
+              <iframe width="560" height="250" src="https://www.youtube.com/embed/jifVr5z0D5M" 
+              title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+               encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </a>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                    <p class="title is-4">Significance of the Native <br>American Headdress</p>
+                    <span class="tag is-light">Wisdom</span>
+                </div>
+              </div>
+              <div class="content">
+                If you are wanting to learn about the headdress, the Native American headdress 
+                is a truly important symbol of the Native American culture. What makes the 
+                native headdress so significant? Find or why indigenous chiefs wear the headdress on 
+                their heads, and other uses. 
+              </div>
+              <div class="buttons">
+                <button class="btn"> <a href="https://www.youtube.com/embed/jifVr5z0D5M">Watch here</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- END CARD 2 -->
+
+<!-- CARD 3 -->
+        <div class="column traditions is-one-third filtered">
+          <div class="card">
+            <div class="card-image">
+              <a href="https://www.youtube.com/embed/0tKXId-QX-g">
+              <iframe width="560" height="250" src="https://www.youtube.com/embed/0tKXId-QX-g" title="YouTube video player" 
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </a>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                    <p class="title is-4 wrap">Chief Cohalia explains the<br>Condor Eagle prophecy</p>
+                    <span class="tag is-light">Traditions</span>
+                </div>
+              </div>
+              <div class="content">
+                Chief Cohaila explains the Condor Eagle Prophecy. He is the very first indigenous leader from Peru to to receive the Chief bundle by Leonard Crowdog spiritual leader and Chief.
+              </div>
+              <div class="buttons">
+                <button class="btn"> <a href="https://www.youtube.com/embed/0tKXId-QX-g">Watch here</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- END CARD 3 -->
+
+
+<!-- CARD 4 -->
+<div class="column sanpedro is-one-third filtered">
+  <div class="card">
+    <div class="card-image">
+       <iframe width="560" height="250"src="https://www.youtube.com/embed/oDszI_93l1Y" title="YouTube video 
+       player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+            <p class="title is-4">Wachuma<br>San Pedro Ceremony</p>
+            <span class="tag is-light">San Pedro</span>
+        </div>
+      </div>
+      <div class="content">
+        This Ancestral ritual is one of the lesser known nowadays in the Andes. 
+        The Wachuma ceremony, also known as San Pedro, is directed by an Andean priest or 
+        Medicine Man. Before the ceremony, the medicine man prepares this medicine, 
+        accompanied with prayers and melodies from an array of native instruments. 
+        The best of prayers and intentions become part of this medicine for those who will 
+        arrive to the ceremony and participate in this sacred encounter.
+      </div>
+      <div class="buttons">
+        <button class="btn"><a href="https://www.youtube.com/embed/oDszI_93l1Y">Watch here</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END CARD 5 -->
+
+<!-- CARD 4 -->
+        <!-- <div class="column wisdom is-one-third filetered">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-16by9 mb-3">
+                <img src="images/blackelk.jpg" width="560" height="200" alt="Black Elk Speaks book cover">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                    <p class="title is-4">Black Elk Speaks</p>
+                    <span class="tag is-light">Wisdom</span>
+                </div>
+              </div>
+              <div class="content">
+                Black Elk Speaks, the story of the Oglala Lakota visionary and healer Nicholas Black Elk 
+                (1863–1950) and his people during momentous twilight years of the nineteenth century, 
+                offers readers much more than a precious glimpse of a vanished time.
+              </div>
+              <div class="buttons">
+                <button class="btn"><a href="https://www.youtube.com/watch?v=_1PPgD0xieQ">Watch here</a></button>
+              </div>
+            </div>
+          </div>
+        </div> -->
+<!-- END CARD 4 -->
+
+<!-- CARD 5 -->
+        <div class="column peyote is-one-third filtered">
+          <div class="card">
+            <div class="card-image">
+              <iframe width="560" height="250" src="https://www.youtube.com/embed/bLC9Eeo80Yc" title="YouTube video player" 
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                    <p class="title is-4">Kuauhtli<br>On Plant Wisdom</p>
+                    <span class="tag is-light">Peyote</span>
+                </div>
+              </div>
+              <div class="content">
+                Kuauhtli Vasquez travels the world as a Spiritual Chief to spread the wisdom of plants and sacred medicines. 
+                In this interview,​ he talks about his transformation, the energetic self, the nature of consciousness, 
+                methods of healing, native customs, sacred plants, the importance of nature and how we can lead purposeful lives.
+              </div>
+              <div class="buttons">
+                <button class="btn"><a href="https://www.youtube.com/watch?v=bLC9Eeo80Yc&t=1694s">Watch here</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- END CARD 5 -->
+
+<!-- CARD 6 -->
+        <div class="column ayahuasca is-one-third filtered">
+          <div class="card ">
+            <div class="card-image">
+              <iframe width="560" height="250" src="https://www.youtube.com/embed/RRgRniMiDIQ" title="YouTube video player" 
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                    <p class="title is-4">De Vine <br>(Ayahuasca documentary)</p>
+                    <span class="tag is-light">Ayahuasca</span>
+                </div>
+              </div>
+              <div class="content">
+                Short documentary speaking about the Condor-Eagle prophesy and a glimpse into an ayahuasca journey and it's benefits.
+              </div>
+              <div class="buttons">
+                <button class="btn"><a href="https://www.youtube.com/watch?v=RRgRniMiDIQ&t=725s">Watch here</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- END CARD 6 -->
+
+
+<!-- CARD 7 -->
+<div class="column mushrooms is-one-third filtered">
+  <div class="card ">
+    <div class="card-image">
+      <iframe width="560" height="250" src="https://www.youtube.com/embed/Pq3pKIM53uc" title="YouTube video 
+  player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+  picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+            <p class="title is-4">Mexico’s Magic <br>Mushroom Woman</p>
+            <span class="tag is-light">Mushrooms</span>
+        </div>
+      </div>
+      <div class="content">
+       Natalia is a Mazatecan medicine woman coming from Huautla de Jimenez, the same small town as 
+       Maria Sabina. This video is to document the basic items and methods used in a traditional 
+       'Velada' mushroom ceremony.       </div>
+      <div class="buttons">
+        <button class="btn"><a href="https://www.youtube.com/embed/Pq3pKIM53uc">Watch here</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END CARD 7 -->
+
+<!-- CARD 8 -->
+<div class="column mushrooms is-one-third filtered">
+  <div class="card ">
+    <div class="card-image">
+      <iframe width="560" height="250" src="https://www.youtube.com/embed/smBMn-CV9KE" 
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+      clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+            <p class="title is-4">Paul Stamets–Psilocybin <br>Mushroom Medicines: <br>A Paradigm Shift in <br>Global Consciousness </p>
+            <span class="tag is-light">Mushrooms</span>
+        </div>
+      </div>
+      <div class="content">
+        Psilocybin mushrooms have been used for millennia by several cultures from Europe to Mesoamerica. 
+        More than 116 species have been identified thus far in the genus Psilocybe alone. New scientific 
+        evidence is pointing to the fact that, not only can they be psycho-spiritually transformative, but
+         they are capable of stimulating neurogenesis, i.e. the growth of nervous system tissue.      </div>
+      <div class="buttons">
+        <button class="btn"><a href="https://www.youtube.com/watch?v=RRgRniMiDIQ&t=725s">Watch here</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END CARD 8 -->
+
+<!-- CARD 9 -->
+<div class="column wisdom is-one-third filtered">
+  <div class="card">
+    <div class="card-image">
+      <a href="https://www.youtube.com/embed/IwHNQx_hvjI"></a>
+      <iframe width="560" height="250" src="https://www.youtube.com/embed/IwHNQx_hvjI" title="YouTube video player" 
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </a>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+            <p class="title is-4">Water is Life:<br>Ancestral Wisdom</p>
+            <span class="tag is-light">Wisdom</span>
+        </div>
+      </div>
+      <div class="content">
+        Indigenous leaders discuss how to take care and respect our source of life by sharing First Nation wisdom. 
+        #WeAreWater​ #Lead4Life​ <a href="https://www.instagram.com/tribute.earth">@Tribute.Earth</a>
+      </div>
+      <div class="buttons">
+        <button class="btn"> <a href="https://www.youtube.com/embed/IwHNQx_hvjI">Watch here</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END CARD 9 -->
+
+
+
+
+
+
+     </div>
+
+        
+        <!-- END GRID -->
+        </div>
+  </div>
+
+
+      </section>
+    </section>
+
+<!-- END VIDEO SERIES -->
+
+
+<!-- FOOTER BEGINS -->
+
+<footer class="footer footer-background-color">
+  <div class="container">
+    <div class="columns">
+      <div class="px-6 column is-5">
+        <strong>PLANTA</strong> ©2021</p>
+        <p> <strong>A plant medicine resource website.</strong> </p>
+        <p>Our main focus is to provide high quality, objective, and infromative ceremony content from all over the world.</p>
+      </div>
+      <div class="column is-2">
+    </div>
+
+  <div class="column is-2">
+    <p><strong>Navigation</strong></p>
+    <p><a href="index.html">Home</a></p>
+    <p><a href="about.html">About</a></p> 
+    <p><a href="new-to-plants.html">Plant Medicines</a></p>
+    <p><a href="resources.html">Resources</a></p>
+    <p><a href="workshops.html">Workshops</a></p>
+</div>
+<div class="column is-3">
+  <p><strong>Web</strong></p>
+  <p>plantamedicine.com</p>
+  <!-- <p><a href="http://plantamedicine.com">plantamedicine.com</a></p> -->
+</div>
+  </div>
+</footer>
+
+<!-- END OF FOOTER -->
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filtered");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+<!-- script for burger menu mobile -->
+<script src="assets/index.js"></script>
+  </body>
+</html>
